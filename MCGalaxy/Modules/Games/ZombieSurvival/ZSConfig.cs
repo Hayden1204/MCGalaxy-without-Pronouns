@@ -137,8 +137,8 @@ namespace MCGalaxy.Modules.Games.ZS
             return infectMsg
                 .Replace(InfectZombiePlaceholder, "&c" + pKiller.DisplayName + "&S")
                 .Replace(InfectHumanPlaceholder, pAlive.ColoredName + "&S")
-                .Replace(InfectZombieObjectPlaceholder, pKiller.pronouns.Object)
-                .Replace(InfectHumanObjectPlaceholder, pAlive.pronouns.Object);
+                .Replace(InfectZombieObjectPlaceholder, "them")
+                .Replace(InfectHumanObjectPlaceholder, "them");
         }
 
         public static List<string> LoadInfectMessages() {
