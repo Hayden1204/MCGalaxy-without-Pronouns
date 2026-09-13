@@ -1,4 +1,4 @@
-British MCGalaxy is a fully featured and customisable **ClassiCube Server Software** based on MCForge/MCLawl.
+British MCGalaxy is a fully featured and customisable **Minecraft Classic-compatible server software** with CPE support based on MCForge/MCLawl.
 
 **Setup**
 -----------------
@@ -16,7 +16,7 @@ Run MCGalaxy.exe or MCGalaxyCLI.exe firstly. You'll see something like:
 
 If you are signed in to classicube.net, you can copy this URL straight into your web browser and start playing.
 
-#### Joining from the ClassiCube client
+#### Joining from ClassiClient
 Click **Direct connect** at the main menu.
 ![opt1](https://github.com/user-attachments/assets/46ad28c2-ac42-418b-a1c8-88d161503cd5)
 
@@ -43,7 +43,7 @@ You need to find out your LAN/local IP address.
 Enter the server URL followed by ```?ip=[lan ip]``` into the web browser.<br>
 (e.g. http://www.classicube.net/server/play/d1362e7fee1a54365514712d007c8799?ip=192.168.1.30)
 
-#### Joining from the ClassiCube client
+#### Joining from ClassiClient
 * Click **Direct connect** at the main menu
 * Type your username into *Username* textbox
 * Type ```[lan ip]:25565``` into *IP:Port* textbox (e.g. ```192.168.1.30:25565```)
